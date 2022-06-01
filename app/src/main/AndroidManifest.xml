@@ -14,6 +14,9 @@
         android:theme="@style/Theme.TheSpellorama"
         tools:targetApi="31">
         <activity
+            android:name=".GameModeActivity"
+            android:exported="false" />
+        <activity
             android:name=".HangmanActivity"
             android:exported="false" />
         <activity

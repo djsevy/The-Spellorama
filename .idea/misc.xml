@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/git/The-Spellorama/app/src/main/res/layout/activity_game_mode.xml" value="0.176" />
+        <entry key="..\:/git/The-Spellorama/app/src/main/res/layout/activity_hangman.xml" value="0.10989583333333333" />
         <entry key="..\:/git/The-Spellorama/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
