@@ -16,7 +16,7 @@
         <activity
 
             android:name=".GameModeActivity"
-            android:name=".setDifficulty"
+            
 
             android:exported="false" />
         <activity
