@@ -8,77 +8,91 @@
 
     <Button
         android:id="@+id/fifthGradeButton"
-        android:layout_width="150dp"
+        android:layout_width="210dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
         android:layout_weight="1"
         android:text="5th Grade"
+        android:textColor="#FFEB3B"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fourthGradeButton" />
 
     <Button
         android:id="@+id/sixthGradeButton"
-        android:layout_width="150dp"
+        android:layout_width="210dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:layout_weight="1"
         android:text="6th Grade"
+        android:textColor="#FFEB3B"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fifthGradeButton" />
 
     <Button
         android:id="@+id/fourthGradeButton"
-        android:layout_width="150dp"
+        android:layout_width="210dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_weight="1"
         android:text="4th Grade"
+        android:textColor="#FFEB3B"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/thirdGradeButton" />
 
     <Button
         android:id="@+id/thirdGradeButton"
-        android:layout_width="150dp"
+        android:layout_width="210dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
         android:layout_weight="1"
         android:text="3rd Grade"
+        android:textColor="#FFEB3B"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/secondGradeButton" />
 
     <Button
         android:id="@+id/secondGradeButton"
-        android:layout_width="150dp"
+        android:layout_width="210dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:layout_weight="1"
         android:text="2nd Grade"
+        android:textColor="#FFEB3B"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/firstGradeButton" />
 
     <Button
         android:id="@+id/firstGradeButton"
-        android:layout_width="150dp"
+        android:layout_width="210dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
         android:layout_weight="1"
         android:text="1st Grade"
+        android:textColor="#FFEB3B"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/kindergartenButton" />
 
     <Button
         android:id="@+id/kindergartenButton"
-        android:layout_width="150dp"
+        android:layout_width="210dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
         android:layout_weight="1"
         android:text="Kindergarten"
+        android:textColor="#FFEB3B"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -90,7 +104,8 @@
         android:layout_marginTop="16dp"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="Set the Difficulty"
-        android:textSize="50sp"
+        android:textColor="#F44336"
+        android:textSize="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
