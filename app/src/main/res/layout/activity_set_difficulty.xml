@@ -7,7 +7,7 @@
     tools:context=".setDifficulty">
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/fifthGradeButton"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
@@ -15,10 +15,10 @@
         android:text="5th Grade"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button14" />
+        app:layout_constraintTop_toBottomOf="@+id/fourthGradeButton" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/sixthGradeButton"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
@@ -26,10 +26,10 @@
         android:text="6th Grade"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button13" />
+        app:layout_constraintTop_toBottomOf="@+id/fifthGradeButton" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/fourthGradeButton"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -37,10 +37,10 @@
         android:text="4th Grade"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button10" />
+        app:layout_constraintTop_toBottomOf="@+id/thirdGradeButton" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/thirdGradeButton"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
@@ -48,10 +48,10 @@
         android:text="3rd Grade"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button9" />
+        app:layout_constraintTop_toBottomOf="@+id/secondGradeButton" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/secondGradeButton"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
@@ -59,10 +59,10 @@
         android:text="2nd Grade"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/firstGradeButton" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/firstGradeButton"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
@@ -70,10 +70,10 @@
         android:text="1st Grade"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/kindergartenButton" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/kindergartenButton"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
