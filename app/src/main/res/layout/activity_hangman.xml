@@ -6,32 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".HangmanActivity">
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="120dp"
-        android:layout_height="wrap_content"
-        android:text="7-12"
-        android:textSize="30dp"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="363dp" />
-
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/faster_one"
-        android:text="Spell-O-Rama"
-        android:textColor="#F44336"
-        android:textSize="45dp"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="45dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="120dp"
-        android:layout_height="wrap_content"
-        android:text="K-6"
-        android:textSize="30dp"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="285dp" />
+        android:text="Hangman"
+        android:textSize="50dp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="47dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
