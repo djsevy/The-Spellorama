@@ -9,23 +9,17 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-    }
-
-    // Button that leads to the set difficulty activity...
 
 
+        // Adding navigation to the Difficulty selection screen...
 
+        val navigateToDifficulty = findViewById<Button>(R.id.k6Button)
 
+        navigateToDifficulty.setOnClickListener{
 
-
-    // Create new name for the btnBack
-    homeButton.setOnClickListener(new OnClickListener(){
-
-        private void onClick(){
-            Intent intent = new Intent(currentActivity.this, Main.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-            startActivity(intent);
+            val difficultyScreen = Intent(this,setDifficulty::class.java)
+            startActivity(difficultyScreen)
         }
-    });
-}
+
+    }}
 
