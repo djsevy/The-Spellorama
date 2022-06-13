@@ -20,6 +20,10 @@ class setDifficulty : AppCompatActivity() {
             startActivity(gameModeScreen)
         }
 
+        // Difficulty Selection Idea:
+        // The difficulty will be based on 7 different files corresponding to the grade selected.
+        // Kindergarten will have 5 easy words in it's file, First grade will add 3 more "harder" words to it's file and so forth
+        // Up until 6th grade (this file will contain all the words).
 
     }
 }
