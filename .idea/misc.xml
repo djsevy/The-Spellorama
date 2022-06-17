@@ -3,13 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Alexa/Desktop/Applied Programming/Spell-O-Rama/app/src/main/res/layout/activity_game_mode.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Alexa/Desktop/Applied Programming/Spell-O-Rama/app/src/main/res/layout/activity_hangman.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Alexa/Desktop/Applied Programming/Spell-O-Rama/app/src/main/res/layout/activity_main.xml" value="0.24547101449275363" />
         <entry key="..\:/Users/Alexa/Desktop/Applied Programming/Spell-O-Rama/app/src/main/res/layout/activity_set_difficulty.xml" value="0.2" />
         <entry key="..\:/git/The-Spellorama/app/src/main/res/layout/activity_game_mode.xml" value="0.176" />
         <entry key="..\:/git/The-Spellorama/app/src/main/res/layout/activity_hangman.xml" value="0.10989583333333333" />
         <entry key="..\:/git/The-Spellorama/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_game_mode.xml" value="0.26856884057971014" />
+        <entry key="app/src/main/res/layout/activity_hangman.xml" value="0.2453125" />
       </map>
     </option>
   </component>
@@ -18,5 +19,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2453125" />
+      </ProjectState>
+    </option>
   </component>
 </project>

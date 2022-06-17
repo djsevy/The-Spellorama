@@ -21,5 +21,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(difficultyScreen)
         }
 
-    }}
+    }
+
+}
 
