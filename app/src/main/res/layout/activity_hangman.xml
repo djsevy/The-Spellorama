@@ -75,4 +75,5 @@
         app:layout_constraintHorizontal_bias="0.519"
         app:layout_constraintStart_toEndOf="@+id/theGuess"
         app:layout_constraintTop_toBottomOf="@+id/theWrong" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
