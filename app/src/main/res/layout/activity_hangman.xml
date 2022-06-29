@@ -42,28 +42,34 @@
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/theHangman" />
+        app:layout_constraintTop_toBottomOf="@+id/theGallows" />
 
     <TextView
         android:id="@+id/theWrong"
         android:layout_width="136dp"
         android:layout_height="21dp"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="52dp"
         android:letterSpacing=".5"
         android:text="Wrong Guess"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/theWord" />
 
     <ImageView
-        android:id="@+id/theHangman"
-        android:layout_width="364dp"
-        android:layout_height="281dp"
+        android:id="@+id/theGallows"
+        android:layout_width="290dp"
+        android:layout_height="354dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/gallows"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+
+
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/checkButton"
@@ -75,5 +81,93 @@
         app:layout_constraintHorizontal_bias="0.519"
         app:layout_constraintStart_toEndOf="@+id/theGuess"
         app:layout_constraintTop_toBottomOf="@+id/theWrong" />
+
+    <ImageView
+        android:id="@+id/noose_cover"
+        android:layout_width="88dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="28dp"
+        android:foreground="@color/white"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/theGallows"
+        app:layout_constraintTop_toTopOf="@+id/theGallows"
+        app:srcCompat="@drawable/blank" />
+
+    <ImageView
+        android:id="@+id/noose"
+        android:layout_width="72dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toEndOf="@+id/theGallows"
+        app:layout_constraintTop_toTopOf="@+id/theGallows"
+        app:srcCompat="@drawable/noose" />
+
+    <ImageView
+        android:id="@+id/head"
+        android:layout_width="42dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="52dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/theGallows"
+        app:layout_constraintTop_toTopOf="@+id/theGallows"
+        app:srcCompat="@drawable/head" />
+
+    <ImageView
+        android:id="@+id/body"
+        android:layout_width="34dp"
+        android:layout_height="69dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="112dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/theGallows"
+        app:layout_constraintEnd_toEndOf="@+id/theGallows"
+        app:srcCompat="@drawable/body" />
+
+    <ImageView
+        android:id="@+id/right_arm"
+        android:layout_width="89dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="192dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/theGallows"
+        app:layout_constraintTop_toTopOf="@+id/theGallows"
+        app:srcCompat="@drawable/right_arm" />
+
+    <ImageView
+        android:id="@+id/left_arm"
+        android:layout_width="87dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="192dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/theGallows"
+        app:layout_constraintTop_toTopOf="@+id/theGallows"
+        app:srcCompat="@drawable/left_arm" />
+
+    <ImageView
+        android:id="@+id/right_leg"
+        android:layout_width="42dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="4dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/theGallows"
+        app:layout_constraintTop_toBottomOf="@+id/noose_cover"
+        app:srcCompat="@drawable/right_leg" />
+
+    <ImageView
+        android:id="@+id/left_leg"
+        android:layout_width="44dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="44dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/theGallows"
+        app:layout_constraintEnd_toEndOf="@+id/theGallows"
+        app:srcCompat="@drawable/left_leg" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
