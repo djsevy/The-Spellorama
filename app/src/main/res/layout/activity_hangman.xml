@@ -25,7 +25,7 @@
         android:layout_marginTop="72dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Enter a letter"
+        android:text=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.014"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,26 +36,40 @@
         android:layout_width="136dp"
         android:layout_height="19dp"
         android:layout_marginTop="60dp"
-        android:letterSpacing=".5
-"
+        android:letterSpacing=".5"
         android:text="The Word"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/theHangman"
+        android:textStyle="bold"
+        android:textSize="14dp"/>
         app:layout_constraintTop_toBottomOf="@+id/theGallows" />
+
 
     <TextView
         android:id="@+id/theWrong"
-        android:layout_width="136dp"
+        android:layout_width="298dp"
         android:layout_height="21dp"
+
+        android:layout_marginTop="4dp"
+
         android:layout_marginTop="52dp"
+
         android:letterSpacing=".5"
-        android:text="Wrong Guess"
+        android:text=""
         android:textAlignment="center"
+        android:textSize="14dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.495"
+
         app:layout_constraintHorizontal_bias="0.501"
+
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/theWord" />
+        app:layout_constraintTop_toBottomOf="@+id/wrongGuesses" />
 
     <ImageView
         android:id="@+id/theGallows"
@@ -82,6 +96,33 @@
         app:layout_constraintStart_toEndOf="@+id/theGuess"
         app:layout_constraintTop_toBottomOf="@+id/theWrong" />
 
+    <TextView
+        android:id="@+id/wrongGuesses"
+        android:layout_width="298dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="72dp"
+        android:letterSpacing=".5"
+        android:text="Wrong Guesses: "
+        android:textAlignment="center"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theWord" />
+
+    <ImageView
+        android:id="@+id/youWinImage"
+        android:layout_width="306dp"
+        android:layout_height="230dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/theHangman"
+        app:layout_constraintVertical_bias="0.56"
+        app:srcCompat="@android:drawable/dark_header" />
+=======
     <ImageView
         android:id="@+id/noose_cover"
         android:layout_width="88dp"
@@ -169,5 +210,6 @@
         app:layout_constraintBottom_toBottomOf="@+id/theGallows"
         app:layout_constraintEnd_toEndOf="@+id/theGallows"
         app:srcCompat="@drawable/left_leg" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
