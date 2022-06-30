@@ -18,11 +18,11 @@
 
 # Collaborators
 
-Team Lead: Joe Hawkins
-Scheduler: David Olsen
-Graphic Designer / Morale Officer: Grant Holly
-Configuration Manager: Dallin Sevey
-Quality Control: Clark Coberly
+* Team Lead: Joe Hawkins
+* Scheduler: David Olsen
+* Graphic Designer / Morale Officer: Grant Holly
+* Configuration Manager: Dallin Sevey
+* Quality Control: Clark Coberly
 
 # Useful Websites
 
