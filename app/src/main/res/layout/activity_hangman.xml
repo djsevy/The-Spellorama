@@ -25,7 +25,7 @@
         android:layout_marginTop="72dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Enter a letter"
+        android:hint="Enter a letter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.014"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,8 +46,8 @@
 
     <TextView
         android:id="@+id/theWrong"
-        android:layout_width="136dp"
-        android:layout_height="21dp"
+        android:layout_width="392dp"
+        android:layout_height="20dp"
         android:layout_marginTop="52dp"
         android:letterSpacing=".5"
         android:text="Wrong Guess"
