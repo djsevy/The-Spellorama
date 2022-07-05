@@ -28,7 +28,7 @@ This is a spelling application created for K-12 school students. The app starts 
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
+
 * Add additional games for each grade.
 * Add a more colorful interface, include music and sound effects.
 * Integrate an online game mode function for grades 7-12.
