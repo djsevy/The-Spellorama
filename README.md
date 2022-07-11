@@ -22,6 +22,7 @@ This is a spelling application created for K-12 school students. The app starts 
 * [Stack Overflow](stackoverflow.com)
 * [Android Studio Official Documentation](https://developer.android.com/docs)
 * [YouTube](YouTube.com)
+* [Miro](Miro.com)
 
 
 # Future Work
