@@ -2,19 +2,12 @@
 
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.}
-
-{Provide a description of your team project.  Describe how to use the software.}
-
-{If this is an online class, then provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+This is a spelling application created for K-12 school students. The app starts out with you choosing your grade (either k-6 or 7-12), depending on your choice it will send you to another screen to let you choose the difficulty based on your grade. Once the difficulty is chosen you're directed to a game mode selection screen where you can choose what game you would like to play. The current version only has the game hangman. The game itself runs as follows: you select a letter on the keyboard, if the letter is correct, the letter appears on screen as a solved portion of the unkown word, if incorrect, a hangman stick figure will continually be added upon until a lose screen. If you guess the word, you get a win screen. Further work is planned to implement different games. The difficulty level is based on the words used. The higher the difficulty (grade) you choose, the harder the words.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+* Android Studio
+* Kotlin Language
 
 # Collaborators
 
@@ -26,13 +19,14 @@
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Stack Overflow](stackoverflow.com)
+* [Android Studio Official Documentation](https://developer.android.com/docs)
+* [YouTube](YouTube.com)
+
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
+
 * Add additional games for each grade.
 * Add a more colorful interface, include music and sound effects.
-* Item 3
+* Integrate an online game mode function for grades 7-12.
