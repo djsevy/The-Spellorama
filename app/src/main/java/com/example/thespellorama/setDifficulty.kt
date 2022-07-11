@@ -20,6 +20,7 @@ class setDifficulty : AppCompatActivity() {
         navigateToGameModeK.setOnClickListener{
             wordToGuess = _getWord("k")
             val gameModeScreen = Intent(this,GameModeActivity::class.java)
+            gameModeScreen.putExtra("word", wordToGuess)
             startActivity(gameModeScreen)
         }
         val navigateToGameMode1 = findViewById<Button>(R.id.firstGradeButton)
@@ -27,6 +28,7 @@ class setDifficulty : AppCompatActivity() {
         navigateToGameMode1.setOnClickListener{
             wordToGuess = _getWord("1")
             val gameModeScreen = Intent(this,GameModeActivity::class.java)
+            gameModeScreen.putExtra("word", wordToGuess)
             startActivity(gameModeScreen)
         }
         val navigateToGameMode2 = findViewById<Button>(R.id.secondGradeButton)
@@ -34,6 +36,7 @@ class setDifficulty : AppCompatActivity() {
         navigateToGameMode2.setOnClickListener{
             wordToGuess = _getWord("2")
             val gameModeScreen = Intent(this,GameModeActivity::class.java)
+            gameModeScreen.putExtra("word", wordToGuess)
             startActivity(gameModeScreen)
         }
         val navigateToGameMode3 = findViewById<Button>(R.id.thirdGradeButton)
@@ -41,6 +44,7 @@ class setDifficulty : AppCompatActivity() {
         navigateToGameMode3.setOnClickListener{
             wordToGuess = _getWord("3")
             val gameModeScreen = Intent(this,GameModeActivity::class.java)
+            gameModeScreen.putExtra("word", wordToGuess)
             startActivity(gameModeScreen)
         }
         val navigateToGameMode4 = findViewById<Button>(R.id.fourthGradeButton)
@@ -48,6 +52,7 @@ class setDifficulty : AppCompatActivity() {
         navigateToGameMode4.setOnClickListener{
             wordToGuess = _getWord("4")
             val gameModeScreen = Intent(this,GameModeActivity::class.java)
+            gameModeScreen.putExtra("word", wordToGuess)
             startActivity(gameModeScreen)
         }
         val navigateToGameMode5 = findViewById<Button>(R.id.fifthGradeButton)
@@ -55,6 +60,7 @@ class setDifficulty : AppCompatActivity() {
         navigateToGameMode5.setOnClickListener{
             wordToGuess = _getWord("5")
             val gameModeScreen = Intent(this,GameModeActivity::class.java)
+            gameModeScreen.putExtra("word", wordToGuess)
             startActivity(gameModeScreen)
         }
 
@@ -86,7 +92,7 @@ class setDifficulty : AppCompatActivity() {
 
     fun _openFile(file : Int): String {
         val words = resources.openRawResource(file).reader().readLines()
-        return words.random()
+        return words.random().uppercase()
     }
 }
 

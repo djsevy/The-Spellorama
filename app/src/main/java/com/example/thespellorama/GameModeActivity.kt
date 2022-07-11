@@ -14,10 +14,12 @@ class GameModeActivity : AppCompatActivity() {
         // Adding navigation to the Hangman game screen...
 
         val navigateToHangman = findViewById<Button>(R.id.hangmanButton)
+        val word = intent.getStringExtra("word")
 
         navigateToHangman.setOnClickListener{
 
             val hangmanScreen = Intent(this,HangmanActivity::class.java)
+            hangmanScreen.putExtra("word", word)
             startActivity(hangmanScreen)
         }
 

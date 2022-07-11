@@ -28,24 +28,28 @@ class HangmanActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_hangman)
-
         // Adding navigation to the Home screen...
         val checkButton = findViewById<Button>(R.id.checkButton)
         val navigateToHome = findViewById<Button>(R.id.hangmanHomeButton)
 //
-
         input = findViewById(R.id.theGuess)
         rightOutput = findViewById(R.id.theWord)
         wrongOutput = findViewById(R.id.theWrong)
-        currentWord = "HELLO"
-        rightOutput.text = "-----"
+        val word : String? = intent.getStringExtra("word")
+        if (word != null) {
+            currentWord = word
+        } else {
+            currentWord = "HELLO"
+        }
+        // "-".repeat(currentWord.length) <- To fix the dash issue
+        rightOutput.text = "-".repeat(currentWord.length)
+//        rightOutput.text = "-----"
         head = findViewById(R.id.head)
         rightArm = findViewById(R.id.right_arm)
         leftArm = findViewById(R.id.left_arm)
         body = findViewById(R.id.body)
         leftLeg = findViewById(R.id.left_leg)
         rightLeg = findViewById(R.id.right_leg)
-
         checkButton.setOnClickListener {
             checkWords()
         }
